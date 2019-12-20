@@ -1,3 +1,5 @@
+#include <sys/time.h>
+
 void init_timing(struct timeval* tstart)
 {
     gettimeofday(tstart, NULL);
